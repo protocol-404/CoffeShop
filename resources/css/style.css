@@ -308,33 +308,3 @@ h1, h5, .navbar-brand, .services .card-title, .about-us, .gallery-item .overlay 
     font-weight: bold;
     border-radius: 5px;
 }
-
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    .hero p {
-        font-size: 1.2rem;
-    }
-    .services .card-img-top {
-        height: 150px;
-    }
-    .gallery-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    .contact-section .card-body {
-        padding: 1.5rem;
-    }
-    .contact-section h2 {
-        font-size: 2rem;
-    }
-    .contact-section .card-title {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-}
